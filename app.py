@@ -10,7 +10,7 @@ from nltk.tokenize import word_tokenize
 
 pipe = pickle.load(open('pipe.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
-
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 ps = PorterStemmer()
