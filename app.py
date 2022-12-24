@@ -1,8 +1,10 @@
 import streamlit as st
 import pickle
 import string
-from nltk.corpus import stopwords
 import nltk
+
+from nltk.corpus import stopwords
+
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
 
