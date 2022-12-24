@@ -7,7 +7,7 @@ from nltk.corpus import stopwords
 
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import word_tokenize
-
+nltk.download('punkt')
 pipe = pickle.load(open('pipe.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 nltk.download('stopwords')
