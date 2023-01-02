@@ -2,4 +2,4 @@
  Spam classifier 
 
 
-Streamlit deployed - https://bit.ly/3PSyRhd
+Streamlit deployed - https://shekhar-banerjee96-spam-classifier-app-nc5cjn.streamlit.app/
